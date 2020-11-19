@@ -41,7 +41,7 @@ import java.util.Scanner;
  *
  * @author Almira
  */
-public class Homework2Ex1 {
+public class integer {
 
     /**
      * @param args the command line arguments
