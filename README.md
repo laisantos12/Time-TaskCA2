@@ -71,4 +71,54 @@ public class Homework2Ex1 {
     }
 }
 
+     package simplefilewrite;
+
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+
+/**
+ *
+ * @author Daniel F Ferreira
+ */
+public class SimpleFileWrite {
+
+    /**
+     * A simple program to demonstrate how to write to a file
+     * 
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
         
+        String filename = "output.txt"; //this is to store the name of my file rather than having to re-type it several times
+        
+        //Step 1 -- you need a BufferedWriter and FileWriter
+        
+        try {
+            
+        
+            BufferedWriter myWriter = new BufferedWriter(new FileWriter(filename, false));
+            //true = append to the file
+            //false = overwrite the file
+            
+            myWriter.write("Hello world!"); //the write method will  write a STRING to the file
+            
+            int someNumber = 42;
+            
+            // how can I write a number??
+            
+            myWriter.newLine();
+            
+            myWriter.write(Integer.toString(someNumber));  //I use Integer.toString() to convert it to a String!
+            
+            
+            myWriter.close(); //IMPORTANT -- this saves changes  to the file
+        }
+        catch(Exception e){
+            
+            System.out.println("Error writing to file " +  filename);
+        }
+        
+       
+    }
+    
+}   
