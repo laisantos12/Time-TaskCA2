@@ -1,0 +1,39 @@
+package what.its.is.your.job;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+
+/**
+ *
+ * @author Daniel
+ */
+public class WhatItsIsYourJob {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // This code asks the user for the job title
+                         
+        BufferedReader myKB= new BufferedReader(new InputStreamReader(System.in));
+        String input =  null;
+        
+        System.out.println("Enter Your Job Title:");
+       
+      try {
+          
+      input = myKB.readLine();
+          System.out.println("Oh, that is a very good Job: " + input + "!!!!");
+          }
+   catch(IOException e){    
+   //
+            System.out.println("Erro! Check your text and try again" + input + " This is not a valid job Title");
+   
+   
+   }
+    
+    }
+    }
+
