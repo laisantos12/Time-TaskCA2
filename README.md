@@ -4,16 +4,29 @@ package inpage;
 
 import java.util.Scanner;
 
-/**
- *
- * @author Lais Ferreira dos Santos
- * 2020311
- */
 public class InpAge {
 
 
     public static void main(String[] args) {
+         
+       /** 
+       *
+       * @author Almira
+       */
 
+       Scanner myName = new Scanner(System.in);
+       System.out.println("Enter, your name, please.");
+
+     
+       String yourName = myName.nextLine();
+       System.out.println("Thank you " + yourName);
+         
+         
+         /**
+         *
+         * @author Lais Ferreira dos Santos
+         * 2020311
+         */
         Scanner inpAge = new Scanner(System.in);
         int age; 
 
