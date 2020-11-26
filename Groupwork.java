@@ -1,11 +1,11 @@
 
-package inpage;
+package groupwork;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.Scanner;
 
-public class InpAge {
+public class GroupWork {
 
     public static void main(String[] args) {
       /** 
