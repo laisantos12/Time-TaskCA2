@@ -67,7 +67,7 @@ public class CA2 {
         // System.out.println(" your Address is " + number +  str);
         System.out.println("Name: " + yourName);
         System.out.println("Age: " + age);
-        System.out.println("Job Title: " + input);
+        System.out.println("Job Title: " + input);   // Daniel F Ferreira.
         System.out.println("Address: " + str + " Num: " + number );
        
        
