@@ -52,7 +52,11 @@ public class GroupWork {
         String input = myKB.readLine();
          // System.out.println("Oh, that is a very good Job: " + input + "!!!!");
         
-            
+            /**
+ *
+ * @author Eric K. Mabe
+ * 2020366
+ */
             
             
         Scanner address = new Scanner(System.in);
