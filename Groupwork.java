@@ -13,7 +13,7 @@ public class GroupWork {
  * @author Almira
  */
         Scanner myName = new Scanner(System.in);
-        System.out.println("Enter, your name, please.");
+        System.out.println("Enter your name please.");
 
      
          String yourName = myName.nextLine();
@@ -67,11 +67,28 @@ public class GroupWork {
         System.out.println("Please enter your number here:");
         int number = address.nextInt();
         // System.out.println(" your Address is " + number +  str);
-        System.out.println("Name: " + yourName);
+            /**    
+            
+  * @author Ahmed Saleem
+   *2020340
+   */
+        Scanner scan = new Scanner(System.in);
+            // import scanner into system to read from user
+        
+                      System.out.println("What is the name of your college:  "); 
+            //print the message 
+        
+         String college = scan.nextLine(); 
+            // store in String
+       
+       
+            
+            
+            System.out.println("Name: " + yourName);
         System.out.println("Age: " + age);
         System.out.println("Job Title: " + input);
         System.out.println("Address: " + str + " Num: " + number );
-       
+        System.out.println("You're in : " + college);
        
           //input error - typed something else but integer         
         }catch (Exception e){
