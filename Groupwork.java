@@ -8,16 +8,14 @@ import java.util.Scanner;
 public class GroupWork {
 
     public static void main(String[] args) {
-      /** 
+ /** 
  *
  * @author Almira
  */
         Scanner myName = new Scanner(System.in);
         System.out.println("Enter your name please.");
-
-     
          String yourName = myName.nextLine();
-        // System.out.println("Thank you " + yourName);       
+             
 /**
  *
  * @author Lais Ferreira dos Santos
@@ -29,19 +27,20 @@ public class GroupWork {
         System.out.println("Please enter your age: ");
         
         try{
-            age = inpAge.nextInt(); //reads the next int from the scanner
+            age = inpAge.nextInt(); // It reads the next int from the scanner
             
             
             if (age <= 0) {
              System.out.println("Sorry! This is not a valid age.");
             }
             else if (age >= 1 && age <= 100){
-           //  System.out.println("Thank you! Your age was submited successfully!");
+         
             }
             else if (age >100){
             
                 System.out.println("Sorry! This is not a valid age.");
             } 
+            // Daniel Ferreira
             // This code asks the user for the job title
                          
         BufferedReader myKB= new BufferedReader(new InputStreamReader(System.in));
@@ -50,9 +49,8 @@ public class GroupWork {
         
           
         String input = myKB.readLine();
-         // System.out.println("Oh, that is a very good Job: " + input + "!!!!");
-        
-            /**
+         
+ /**
  *
  * @author Eric K. Mabe
  * 2020366
@@ -66,12 +64,11 @@ public class GroupWork {
         
         System.out.println("Please enter your number here:");
         int number = address.nextInt();
-        // System.out.println(" your Address is " + number +  str);
-            /**    
-            
+       
+  /**             
   * @author Ahmed Saleem
-   *2020340
-   */
+  *2020340
+  */
         Scanner scan = new Scanner(System.in);
             // import scanner into system to read from user
         
@@ -82,9 +79,9 @@ public class GroupWork {
             // store in String
        
        
-            
-            
-            System.out.println("Name: " + yourName);
+           // The whole group made this part together.  
+          // Output messages  
+        System.out.println("Name: " + yourName);
         System.out.println("Age: " + age);
         System.out.println("Job Title: " + input);
         System.out.println("Address: " + str + " Num: " + number );
